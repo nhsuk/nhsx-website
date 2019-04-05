@@ -14,4 +14,8 @@
 
 .nhsx-section--white {
   background-color: $color_nhsuk-white;
+
+  @media screen and (-ms-high-contrast: active) {
+    padding-top: 0;
+  }
 }

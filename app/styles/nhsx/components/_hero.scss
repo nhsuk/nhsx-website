@@ -18,3 +18,38 @@
 
   }
 }
+
+@media screen and (-ms-high-contrast: active) {
+
+  .nhsuk-hero--nhsx {
+    min-height: 0;
+
+    .nhsuk-hero__overlay {
+      min-height: 0;
+      height: auto;
+    }
+
+    .nhsuk-hero-content--nhsx {
+      bottom: 0;
+      margin-bottom: 0;
+      min-height: 0;
+      padding: 32px 0 0 0;
+      position: relative;
+      top: 0;
+
+      .nhsuk-heading-l {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    .nhsuk-hero__arrow--nhsx {
+      display: none !important;
+    }
+
+  }
+
+  .nhsx-u-hero-spacing.nhsx-u-hero-spacing {
+    padding-top: 64px;
+  }
+
+}
