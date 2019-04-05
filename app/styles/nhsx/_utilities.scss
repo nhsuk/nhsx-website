@@ -61,6 +61,11 @@
     padding-bottom: 36px;
     padding-top: 96px;
   }
+
+  @media screen and (-ms-high-contrast: active) {
+    padding-top: 64px;
+  }
+
 }
 
 /**
