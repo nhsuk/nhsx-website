@@ -5,6 +5,7 @@
 - Reorder the asset `preconnect` and remove unneeded `dns-prefetch` ([Issue 9](https://github.com/nhsx/nhsx-website/issues/9))
 - Terms and conditions content amendments
 - Update the default `BASE_URL` to include www.
+- Added high contrast mode amends
 
 ## 1.0.0 - 04/04/2019
 
@@ -31,7 +32,7 @@
 - Content amendments across the website with newly signed off content
 - Content amendments to include health and social care
 - Tweak the width of the hero on mobile and spacing below
-- Add promo to Homepage for blogs and updates promotion 
+- Add promo to Homepage for blogs and updates promotion
 - Populate the policies and key information and tools pages with descriptions and lead text
 - Set a base URL for the app for any assets that require a full path
 - Update the hero header image to the final version
