@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.0.3 - TBC
+
+- Amend heading structure on various pages so there is no jumping from a H1 to a H3
+- Add title attribute to iframe video on the homepage
+
+## 1.0.2 - 15/04/2019
+
+- Update package dependencies including latest version (2.1.0) of the NHS.UK frontend
+- Add robots.txt and sitemap.xml ([Issue 14](https://github.com/nhsx/nhsx-website/issues/14))
+
+## 1.0.1 - 05/04/2019
+
+- Reorder the asset `preconnect` and remove unneeded `dns-prefetch` ([Issue 9](https://github.com/nhsx/nhsx-website/issues/9))
+- Terms and conditions content amendments
+- Update the default `BASE_URL` to include `www`
+- Added simple Web App Manifest file
+- Who we are content amendments
+
+## 1.0.0 - 04/04/2019
+
+:rocket: Release of the NHSX website (https://nhsx.nhs.uk)
+
 ## 0.0.6 - 04/04/2019
 
 - Tweak spacing below the video container on Homepage
@@ -20,7 +42,7 @@
 - Content amendments across the website with newly signed off content
 - Content amendments to include health and social care
 - Tweak the width of the hero on mobile and spacing below
-- Add promo to Homepage for blogs and updates promotion 
+- Add promo to Homepage for blogs and updates promotion
 - Populate the policies and key information and tools pages with descriptions and lead text
 - Set a base URL for the app for any assets that require a full path
 - Update the hero header image to the final version
