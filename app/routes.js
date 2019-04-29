@@ -72,6 +72,21 @@ router.get('/sitemap', (req, res) => {
   res.render('pages/sitemap');
 });
 
+router.get('/manifest.json', (req, res) => {
+  res.set({ 'Content-Type': 'application/json' });
+  res.render('manifest');
+});
+
+router.get('/sitemap.xml', (req, res) => {
+  res.set({ 'Content-Type': 'application/xml' });
+  res.render('sitemap.xml');
+});
+
+router.get('/robots.txt', (req, res) => {
+  res.set('text/plain');
+  res.render('robots.txt');
+});
+
 router.use((req, res) => {
   res.statusCode = 404;
   res.render('pages/404');
