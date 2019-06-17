@@ -3,6 +3,7 @@
 ## 2.0.1 - 17/06/2019
 
 - Self host the cookie consent solution ([Issue 38](https://github.com/nhsx/nhsx-website/issues/38))
+- Add watch task to compile assets when there any changes ([Issue 40](https://github.com/nhsx/nhsx-website/issues/40))
 
 ## 2.0.0 - 17/06/2019
 
